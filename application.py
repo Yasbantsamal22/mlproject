@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
 
-appication = Flask(__name__)
+appication = Flask(__name__) 
 
 app = appication
 
