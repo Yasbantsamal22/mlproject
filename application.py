@@ -35,7 +35,7 @@ def index():
         results=predict_pipeline.predict(pred_df)
         results = results[0]
         print("after Prediction")
-        return render_template('index.html',results=round(results,2))
+        return render_template('index.html',results=results[0])
 
 
 # @app.route('/predictdata',methods=['GET','POST'])
